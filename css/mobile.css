@@ -1,0 +1,140 @@
+/* CSS reset... Stuff */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+input {
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym {
+    border:0;
+}
+
+/* General Stuff */
+
+body {
+    background:#f9f9f9 url(../images/bg_texture.png) repeat top left;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a[href^="//"]:after,
+a[href^="http://"]:after,
+a[href^="https://"]:after {
+    content: url(../images/externalllink.png);
+    margin: 0 0 0 5px;
+}
+.container {
+    position:relative;
+    margin:1em auto 0 auto;
+}
+.main {
+    margin: 1em 1em ;
+}
+.clr {
+    clear: both;
+}
+h1 {
+    margin:0px;
+    padding:5px;
+    font-size:25px;
+    color:#333;
+    text-shadow:1px 1px 1px #fff;
+    text-align:left;
+    font-weight:400;
+    text-align:left;
+}
+h1 span {
+    display:block;
+    font-size: 15px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color:#b2891b;
+}
+h2 {
+    font-size:20px;
+    padding:15px;
+}
+h3 {
+    font-size:20px;
+    padding:5px;
+}
+
+/*ID based stuff*/
+
+#v {
+    display:none;
+    font-family:"Courier New", Courier, monospace;
+}
+#footer {
+    top:1em;
+    left:1em;
+}
+#footer a {
+    font-weight: bold;
+    display: block;
+    margin:0.3em;
+    padding: 10px 15px;
+    background: #fff;
+}
+#projects .main .item .text a {
+    color: #838B8B;
+}
+#about .main a {
+    color: #838B8B;
+}
+.view {
+    margin: 15px;
+}
+.view img {
+    border: 10px solid #fff;
+    background: #fff;
+    display: block;
+    margin:0 auto;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    margin:10px 0 20px 0;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
